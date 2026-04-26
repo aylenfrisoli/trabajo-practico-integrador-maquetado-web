@@ -840,10 +840,10 @@ footer {
   .hero-side { order: -1; }
   .photo-frame { width: 260px; height: 320px; }
   .about-grid { flex-direction: column; gap: 3rem; }
-  .skills-header { flex-direction: column; gap: 1.5rem; }
+  .skills-header { flex-direction: column; gap: 1.5rem; align-items: flex-start; }
   .project-card { width: 100%; }
   .edu-grid { flex-direction: column; gap: 3rem; }
-  .contact-grid { flex-direction: column; gap: 3rem; }
+  .contact-grid { flex-direction: column; gap: 3rem; align-items: stretch; }
   .footer-top { flex-direction: column; gap: 2rem; }
   .footer-col { min-width: 0; }
 }
@@ -854,4 +854,5 @@ footer {
   .hero-inner { padding: 4rem 1.5rem; }
   .form-duo { flex-direction: column; }
   .badge { display: none; }
+  .contact-grid { flex-direction: column; gap: 3rem; align-content: center; justify-content: center; }
 }
